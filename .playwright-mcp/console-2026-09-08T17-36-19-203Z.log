@@ -1,0 +1,24 @@
+[    5946ms] TypeError: Cannot read properties of null (reading 'description')
+    at Object.<anonymous> (https://sauce-demo.myshopify.com/cdn/shop/t/2/assets/jquery.theme.js?v=42021284561027497791425319943:1:29646)
+    at st.each (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:1:15879)
+    at Shopify.onCartUpdate (https://sauce-demo.myshopify.com/cdn/shop/t/2/assets/jquery.theme.js?v=42021284561027497791425319943:1:29440)
+    at Object.success (https://sauce-demo.myshopify.com/cdn/shop/t/2/assets/jquery.theme.js?v=42021284561027497791425319943:1:24005)
+    at f (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:1:18278)
+    at Object.fireWith [as resolveWith] (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:1:19064)
+    at r (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:3:16009)
+    at XMLHttpRequest.r (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:3:21638)
+[    6895ms] [INFO] Clear-Site-Data header on 'https://sauce-demo.myshopify.com/cart/add.js': Cleared data types: "prefetchCache", "prerenderCache". @ https://sauce-demo.myshopify.com/collections/frontpage/products/grey-jacket:0
+[    7118ms] TypeError: Cannot read properties of null (reading 'description')
+    at Object.<anonymous> (https://sauce-demo.myshopify.com/cdn/shop/t/2/assets/jquery.theme.js?v=42021284561027497791425319943:1:29646)
+    at st.each (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:1:15879)
+    at Shopify.onCartUpdate (https://sauce-demo.myshopify.com/cdn/shop/t/2/assets/jquery.theme.js?v=42021284561027497791425319943:1:29440)
+    at Object.success (https://sauce-demo.myshopify.com/cdn/shop/t/2/assets/jquery.theme.js?v=42021284561027497791425319943:1:24005)
+    at f (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:1:18278)
+    at Object.fireWith [as resolveWith] (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:1:19064)
+    at r (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:3:16009)
+    at XMLHttpRequest.r (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:3:21638)
+[  117028ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://sauce-demo.myshopify.com/favicon.ico:0
+[  117612ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://sauce-demo.myshopify.com/private_access_tokens?id=c5f9dd69940704498a3956f98239fbb1&checkout_type=c1:0
+[  122767ms] [WARNING] The resource https://sauce-demo.myshopify.com/cdn/shopifycloud/checkout-web/assets/c1/sandbox.CPHgddd6.worker.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://sauce-demo.myshopify.com/checkouts/cn/hWNGbOnIC7EwOzmLGzk24TbQ/en-in?_r=AQABwvBXGLf2EQANrhZFBdtxkODRFDxf61uHAEReiXhz3zQ:0
+[  122767ms] [WARNING] The resource https://extensions.shopifycdn.com/shopifycloud/checkout-web/assets/c1/polyfills-entry-modern.DzNfZ5Oj.worker.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://sauce-demo.myshopify.com/checkouts/cn/hWNGbOnIC7EwOzmLGzk24TbQ/en-in?_r=AQABwvBXGLf2EQANrhZFBdtxkODRFDxf61uHAEReiXhz3zQ:0
+[  122767ms] [WARNING] The resource https://sauce-demo.myshopify.com/cdn/shopifycloud/checkout-web/assets/c1/sandbox-2025-07.Dj7kyiOY.worker.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://sauce-demo.myshopify.com/checkouts/cn/hWNGbOnIC7EwOzmLGzk24TbQ/en-in?_r=AQABwvBXGLf2EQANrhZFBdtxkODRFDxf61uHAEReiXhz3zQ:0
