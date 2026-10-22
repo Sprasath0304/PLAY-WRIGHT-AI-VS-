@@ -113,7 +113,6 @@ expect (fullupdateresponse.status()).toBe(200);
 
 expect (fullupdateresponse.statusText()).toBe("OK")
 
-
 const fullupdatebooking =await fullupdateresponse.json();
 
 console.log(" fullupdate booking",fullupdatebooking)
