@@ -43,5 +43,70 @@ expect(postresponse.statusText()).toBe("Created");
 
     expect (getresponse.statusText()).toBe("OK")
 
+
+    // patch 
+
+   const patchpayload = await readJson("./tests/Testingapi/patch.json")
+
+   const patchresponse =await request.patch (`${baseurl}/posts/${id}`,
+    {
+        headers:{
+"Content-Type": "application/json",
+
+
+        },data:patchpayload,
+    }
+ );
+
+   expect (patchresponse.status()).toBe(200);
+
+expect (patchresponse.statusText()).toBe("OK")
+
+
+const patchupdatebooking =await patchresponse.json()
+
+console.log("partial update booking",patchupdatebooking)
+
+
+    // update 
+ const updatepayload = await readJson("./tests/Testingapi/put.json")
+
+   const updateresponse =await request.patch (`${baseurl}/posts/${id}`,
+    {
+        headers:{
+"Content-Type": "application/json",
+
+
+        },data:updatepayload,
+    }
+ );
+
+   expect (updateresponse.status()).toBe(200);
+
+expect (updateresponse.statusText()).toBe("OK")
+
+
+const updatebooking =await updateresponse.json()
+console.log(" fullupdate booking",updatebooking)
+
+    // Delete
+
+    
+const deleteresponse = await request.delete(`${baseurl}/posts/${id}`,
+
+{ headers : {
+
+    "Content-Type": "application/json",
+
+}
+
+}); 
+
+expect (deleteresponse.status()).toBe(200)
+
+expect (deleteresponse.statusText()).toBe("OK")
+
+console.log("bboking detail are delete")
+
 })
 
