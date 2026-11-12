@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { existsSync } from 'fs';
 
-const envpath = 'D:/PLAY WRIGHT AI (VS)/PLAY-WRIGHT-AI-VS-v1/.env';
+const envpath = 'D:/PLAY WRIGHT AI (VS)/.env';
 
 console.log('File exists:', existsSync(envpath));
 
